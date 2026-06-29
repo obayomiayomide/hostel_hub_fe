@@ -1,0 +1,42 @@
+{
+  "name": "hostel-allocation-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontend for the Web-Based Student Hostel Allocation Management System",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.16",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "axios": "^1.7.7",
+    "react-hook-form": "^7.53.0",
+    "@hookform/resolvers": "^3.9.0",
+    "zod": "^3.23.8",
+    "js-cookie": "^3.0.5",
+    "react-hot-toast": "^2.4.1",
+    "recharts": "^2.12.7",
+    "lucide-react": "^0.447.0",
+    "clsx": "^2.1.1",
+    "date-fns": "^3.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "@types/node": "^20.16.10",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "@types/js-cookie": "^3.0.6",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.16"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
